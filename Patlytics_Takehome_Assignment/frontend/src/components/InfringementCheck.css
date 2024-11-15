@@ -1,0 +1,114 @@
+.infringement-check-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .loader {
+    text-align: center;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .error {
+    color: #dc3545;
+    text-align: center;
+  }
+  
+  .results {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
+  .subtitle {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .analysis-info {
+    background-color: #e9ecef;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  .highlight {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .result-item {
+    background-color: white;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .product-name {
+    color: #007bff;
+    margin-top: 0;
+  }
+  
+  .likelihood {
+    font-weight: bold;
+  }
+  
+  .likelihood.high {
+    color: #dc3545;
+  }
+  
+  .likelihood.moderate {
+    color: #ffc107;
+  }
+  
+  .likelihood.low {
+    color: #28a745;
+  }
+  
+  .no-results {
+    text-align: center;
+    color: #6c757d;
+  }
